@@ -54,7 +54,7 @@ import matplotlib.pyplot as plt
 import cv2
 import matplotlib.pyplot as plt
 
-img=cv2.imread("yellow.jpeg",0)
+img=cv2.imread("windows.jpg",0)
 gray=cv2.cvtColor(img,cv2.COLOR_GRAY2RGB)
 gray = cv2.GaussianBlur(gray,(3,3),0)
 ```
